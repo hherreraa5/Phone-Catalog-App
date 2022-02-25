@@ -32,13 +32,13 @@ const PhoneDetailComponent = (props) => {
             </p>
           </ModalHeader>
           <ModalBody>
-            <Row>
+            <Row className="RowImagePhone">
               <Col xl={{ size: 6 }} className='imagePhoneDetail'>
                 <img src={phone && phone.imageFront} alt='phone' />
               </Col>
               <Col>
                 <Row>
-                  <Col xl={{ size: 4 }} >
+                  <Col xl={{ size: 4 }}  xs={{ size: 5 }} >
                     <p>
                       <mark>
                         Company
@@ -83,7 +83,7 @@ const PhoneDetailComponent = (props) => {
                   <Col className="videoPhone">
                     <iframe
                     title={phone && phone.name}
-                    width="380" height="260"
+                    width="340" height="260"
                       src={phone && phone.video}>
                     </iframe>
                   </Col>

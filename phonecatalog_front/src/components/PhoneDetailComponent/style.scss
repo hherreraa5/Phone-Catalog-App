@@ -1,3 +1,6 @@
+.RowImagePhone{
+  justify-content: center;
+}
 .imagePhoneDetail {
   width: 45%;
   img {
@@ -24,5 +27,6 @@ p {
   background-color: royalblue;
 }
 .buttonDetailPhone {
-  width: 105%; 
+  width: 100%;
+  margin-bottom: 3%; 
 }
