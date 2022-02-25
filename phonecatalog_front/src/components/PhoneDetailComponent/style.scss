@@ -1,0 +1,28 @@
+.imagePhoneDetail {
+  width: 45%;
+  img {
+    width: 100%;
+  }
+}
+mark {
+  background-color: transparent;
+  font-weight: bold;
+  color: grey;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+p {
+  margin-bottom: 0;
+  color: black;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+}
+.videoPhone {
+  margin-top: 3%;
+}
+.buttonDetailPhone:hover {
+  background-color: royalblue;
+}
+.buttonDetailPhone {
+  width: 105%; 
+}
